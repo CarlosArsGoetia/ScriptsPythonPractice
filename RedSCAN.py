@@ -20,7 +20,7 @@ scaner = nmap.PortScanner()
 
 while True:
      
-        ip = input("Insert the ip address: ")
+        ip = input("Insert the ip range: ")
         if ip.isalpha() is True:
             print("Enter a valid IP address")
         else: break    
