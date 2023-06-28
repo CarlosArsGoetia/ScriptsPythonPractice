@@ -27,8 +27,8 @@ while True:
 
 if options == "1":
     message = input("Enter the phrase to be encoded: ")
-    decode_message = base64.b64encode(message.encode())
-    print("ENCODE Base64: ", decode_message.decode())
+    encode_message = base64.b64encode(message.encode())
+    print("ENCODE Base64: ", encode_message.decode())
     
 else:
     message_base64 = input("Enter the prhrase to be decode: ")
