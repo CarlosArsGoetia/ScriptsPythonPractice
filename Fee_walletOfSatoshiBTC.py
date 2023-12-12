@@ -21,7 +21,7 @@ response = requests.get(url)
 precio_bitcoin = int(float(response.json()["data"]["amount"]))
 
 
-API_TOKEN = '6810205982:AAEH3rOhnThnpVuLIAveVha_TerjTrOZ6Zs'
+API_TOKEN = 'AQUI VA TU TOKEN DEL BOT'  
 bot = telebot.TeleBot(API_TOKEN)
 
 
