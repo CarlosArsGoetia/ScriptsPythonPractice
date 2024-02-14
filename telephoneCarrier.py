@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-
-"""you can install phonenumbers like this 
- pip install phonenumbers"""
 from colorama import Fore
 import phonenumbers 
 from phonenumbers import geocoder, timezone, carrier
