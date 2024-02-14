@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 from colorama import Fore
 import phonenumbers 
 from phonenumbers import geocoder, timezone, carrier
