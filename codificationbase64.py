@@ -3,8 +3,6 @@ import base64
 import sys, signal
 
 
-"""Sys and sig are imported for the ctrl_c function as usual and in this case base64 for decode/encode.
-"""
 def def_handler(sig,frame):
     print("\n\n[!]Running Out \n")
     sys.exit(1)
