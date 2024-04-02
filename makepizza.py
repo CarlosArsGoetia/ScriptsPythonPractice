@@ -11,13 +11,12 @@ signal.signal(signal.SIGINT, def_handler)
 def imprimir_receta_pizza():
 
     print(f"\nTu receta para hacer un paston de masa para pizza que pesara: {weight}gr ")
-    print(f"[+]Harina Panadera: {f_grams.__round__():.0f}gr")
-    print(f"[+]Agua: {w_grams.__round__():.0f}gr")
-    print(f"[+]Levadura: {y_grams.__round__():.0f}gr [!] Si es levadura instantanea usa la mitad.")
-    print(f"[+]Sal: {s_grams.__round__():.0f}gr")
-    print(f"[+]Aceite: {o_grams.__round__():.0f}gr")
+    print(f"[+]Harina Panadera: {f_grams:.0f}gr")
+    print(f"[+]Agua: {w_grams:.0f}gr")
+    print(f"[+]Levadura: {y_grams:.0f}gr [!] Si es levadura instantanea usa la mitad.")
+    print(f"[+]Sal: {s_grams:.0f}gr")
+    print(f"[+]Aceite: {o_grams:.0f}gr")
     print(f"\n[!]Despues del correcto amasado---> Deja la masa en reposo 30min (Cubierta)\n")
-
 #Empezamos
 print(f"Script para pizzas \n La receta va de mi parte :D ")
 
